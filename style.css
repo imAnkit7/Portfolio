@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Playfair+Display:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.topnav {
+  background-color: rgb(69, 69, 69);
+  /* background-color: grey; */
+  overflow: hidden;
+}
+.q{
+  /* margin-right:  90px; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: white;
+  float: left;
+  display: block;
+  text-align: center;
+  margin: 0 14.5px;
+  padding: 12px ;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+/* .active {
+  background-color: #04AA6D;
+  color: white;
+} */
+.port{
+  background-color:#04AA6D ;
+}
+#maincontainer{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.main {
+  /* background-color: yellow; */
+}
+.infomain{
+  /* background-color: aqua; */
+  height: 50vh;
+  margin: 80px auto;
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Freehand', cursive;
+
+  font-family: 'Playfair Display', serif;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hello{
+ font-size: 45px;
+ color: red;
+ margin: 2px;
+}
+.name{
+ font-size: 28px;
+ font-weight: bold;
+ margin: 2px;
+}
+.about{
+ font-size: 22px;
+ margin: 2px;
+}
+.more{
+  font-size: 15px;
+  margin: 2px;
+}
+
+.infomain img{
+ height: 42vh;
+ margin: 2px;
+}
+.btn{
+  width: 8vw;
+  margin:5px 0;
+  height:2.2vw;
+  cursor: pointer;
+  background-color: #04AA6D;
+  border-radius: 15px;
+  font-size: 1vw;
+  color: white;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+.btn a:hover{
+  color: black;
+}
+.btn:hover{
+  background-color: #ddd;
+  color: black;
+}
+.ham{
+  width: 30px;
+  /* display: none; */
+}
+.cross{
+  width: 30px;
+  /* display: none; */
+}
+@media (max-width:700px){
+ .pic{
+  display: none;
+ }
+}
